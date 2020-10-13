@@ -1,0 +1,17 @@
+h1 {
+  color: rgb(68, 128, 68);
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+ul {
+    font-size: 20px;
+    line-height: 30px;
+}
