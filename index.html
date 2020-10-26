@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Michael's favorite things</title>
 </head>
 <body>
@@ -10,6 +13,26 @@
 
   <h3>People</h3>
   <p>Here are some of my favorite <em>people</em>!</p>
+  <br>
+  <form id="question">
+    <label for="activities">What do you like to do with your family</label>
+    <select id="activities">
+      <option value="movie">Go to a movie and dinner</option>
+      <option value="night-in">Hangout at home</option>
+    </select>
+    <label for="location">Where does your family go for vacation</label>
+    <select id="location">
+      <option value="travel">travel abroad</option>
+      <option value="camp">camp locally</option>
+    </select>
+    <div class="form-group">
+      <input id="animal" class="form-control" type="text" placeholder="enter favorite animal">
+    </div>
+    <button type="submit" class="btn-primary">Submit</button>
+  </form>
+  <ul class="result">
+    
+  </ul>
   <ul>
     <li>
       <a href="http://www.example.com/christopher.html">
